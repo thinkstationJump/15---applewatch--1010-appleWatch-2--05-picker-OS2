@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70186E971BC904040082A71F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186E961BC904040082A71F /* main.m */; };
+		70186E9A1BC904040082A71F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186E991BC904040082A71F /* AppDelegate.m */; };
+		70186E9D1BC904040082A71F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186E9C1BC904040082A71F /* ViewController.m */; };
+		70186EA01BC904040082A71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186E9E1BC904040082A71F /* Main.storyboard */; };
+		70186EA21BC904040082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186EA11BC904040082A71F /* Assets.xcassets */; };
+		70186EA51BC904040082A71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186EA31BC904040082A71F /* LaunchScreen.storyboard */; };
+		70186EB01BC904040082A71F /* _5_picker_OS2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186EAF1BC904040082A71F /* _5_picker_OS2Tests.m */; };
+		70186EBB1BC904040082A71F /* _5_picker_OS2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186EBA1BC904040082A71F /* _5_picker_OS2UITests.m */; };
+		70186EC01BC904040082A71F /* 05-picker-OS2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 70186EBF1BC904040082A71F /* 05-picker-OS2 WatchKit App.app */; };
+		70186EC61BC904040082A71F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186EC41BC904040082A71F /* Interface.storyboard */; };
+		70186EC81BC904040082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186EC71BC904040082A71F /* Assets.xcassets */; };
+		70186ECF1BC904040082A71F /* 05-picker-OS2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70186ECE1BC904040082A71F /* 05-picker-OS2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70186ED71BC904040082A71F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186ED61BC904040082A71F /* InterfaceController.m */; };
+		70186EDA1BC904040082A71F /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186ED91BC904040082A71F /* ExtensionDelegate.m */; };
+		70186EDD1BC904040082A71F /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186EDC1BC904040082A71F /* NotificationController.m */; };
+		70186EDF1BC904040082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186EDE1BC904040082A71F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70186EAC1BC904040082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186E8A1BC904030082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186E911BC904040082A71F;
+			remoteInfo = "05-picker-OS2";
+		};
+		70186EB71BC904040082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186E8A1BC904030082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186E911BC904040082A71F;
+			remoteInfo = "05-picker-OS2";
+		};
+		70186EC11BC904040082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186E8A1BC904030082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186EBE1BC904040082A71F;
+			remoteInfo = "05-picker-OS2 WatchKit App";
+		};
+		70186ED01BC904040082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186E8A1BC904030082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186ECD1BC904040082A71F;
+			remoteInfo = "05-picker-OS2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70186EE61BC904040082A71F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70186ECF1BC904040082A71F /* 05-picker-OS2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EEA1BC904040082A71F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				70186EC01BC904040082A71F /* 05-picker-OS2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70186E921BC904040082A71F /* 05-picker-OS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-picker-OS2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186E961BC904040082A71F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70186E981BC904040082A71F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70186E991BC904040082A71F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70186E9B1BC904040082A71F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70186E9C1BC904040082A71F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70186E9F1BC904040082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70186EA11BC904040082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70186EA41BC904040082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70186EA61BC904040082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186EAB1BC904040082A71F /* 05-picker-OS2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-picker-OS2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186EAF1BC904040082A71F /* _5_picker_OS2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_picker_OS2Tests.m; sourceTree = "<group>"; };
+		70186EB11BC904040082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186EB61BC904040082A71F /* 05-picker-OS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-picker-OS2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186EBA1BC904040082A71F /* _5_picker_OS2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_picker_OS2UITests.m; sourceTree = "<group>"; };
+		70186EBC1BC904040082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186EBF1BC904040082A71F /* 05-picker-OS2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-picker-OS2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186EC51BC904040082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		70186EC71BC904040082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70186EC91BC904040082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186ECE1BC904040082A71F /* 05-picker-OS2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "05-picker-OS2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186ED41BC904040082A71F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		70186ED51BC904040082A71F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		70186ED61BC904040082A71F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		70186ED81BC904040082A71F /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		70186ED91BC904040082A71F /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		70186EDB1BC904040082A71F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		70186EDC1BC904040082A71F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		70186EDE1BC904040082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70186EE01BC904040082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70186E8F1BC904040082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EA81BC904040082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EB31BC904040082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186ECB1BC904040082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70186E891BC904030082A71F = {
+			isa = PBXGroup;
+			children = (
+				70186E941BC904040082A71F /* 05-picker-OS2 */,
+				70186EAE1BC904040082A71F /* 05-picker-OS2Tests */,
+				70186EB91BC904040082A71F /* 05-picker-OS2UITests */,
+				70186EC31BC904040082A71F /* 05-picker-OS2 WatchKit App */,
+				70186ED21BC904040082A71F /* 05-picker-OS2 WatchKit Extension */,
+				70186E931BC904040082A71F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70186E931BC904040082A71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70186E921BC904040082A71F /* 05-picker-OS2.app */,
+				70186EAB1BC904040082A71F /* 05-picker-OS2Tests.xctest */,
+				70186EB61BC904040082A71F /* 05-picker-OS2UITests.xctest */,
+				70186EBF1BC904040082A71F /* 05-picker-OS2 WatchKit App.app */,
+				70186ECE1BC904040082A71F /* 05-picker-OS2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70186E941BC904040082A71F /* 05-picker-OS2 */ = {
+			isa = PBXGroup;
+			children = (
+				70186E981BC904040082A71F /* AppDelegate.h */,
+				70186E991BC904040082A71F /* AppDelegate.m */,
+				70186E9B1BC904040082A71F /* ViewController.h */,
+				70186E9C1BC904040082A71F /* ViewController.m */,
+				70186E9E1BC904040082A71F /* Main.storyboard */,
+				70186EA11BC904040082A71F /* Assets.xcassets */,
+				70186EA31BC904040082A71F /* LaunchScreen.storyboard */,
+				70186EA61BC904040082A71F /* Info.plist */,
+				70186E951BC904040082A71F /* Supporting Files */,
+			);
+			path = "05-picker-OS2";
+			sourceTree = "<group>";
+		};
+		70186E951BC904040082A71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70186E961BC904040082A71F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70186EAE1BC904040082A71F /* 05-picker-OS2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70186EAF1BC904040082A71F /* _5_picker_OS2Tests.m */,
+				70186EB11BC904040082A71F /* Info.plist */,
+			);
+			path = "05-picker-OS2Tests";
+			sourceTree = "<group>";
+		};
+		70186EB91BC904040082A71F /* 05-picker-OS2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70186EBA1BC904040082A71F /* _5_picker_OS2UITests.m */,
+				70186EBC1BC904040082A71F /* Info.plist */,
+			);
+			path = "05-picker-OS2UITests";
+			sourceTree = "<group>";
+		};
+		70186EC31BC904040082A71F /* 05-picker-OS2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				70186EC41BC904040082A71F /* Interface.storyboard */,
+				70186EC71BC904040082A71F /* Assets.xcassets */,
+				70186EC91BC904040082A71F /* Info.plist */,
+			);
+			path = "05-picker-OS2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		70186ED21BC904040082A71F /* 05-picker-OS2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70186ED51BC904040082A71F /* InterfaceController.h */,
+				70186ED61BC904040082A71F /* InterfaceController.m */,
+				70186ED81BC904040082A71F /* ExtensionDelegate.h */,
+				70186ED91BC904040082A71F /* ExtensionDelegate.m */,
+				70186EDB1BC904040082A71F /* NotificationController.h */,
+				70186EDC1BC904040082A71F /* NotificationController.m */,
+				70186EDE1BC904040082A71F /* Assets.xcassets */,
+				70186EE01BC904040082A71F /* Info.plist */,
+				70186ED31BC904040082A71F /* Supporting Files */,
+			);
+			path = "05-picker-OS2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		70186ED31BC904040082A71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70186ED41BC904040082A71F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70186E911BC904040082A71F /* 05-picker-OS2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186EEB1BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2" */;
+			buildPhases = (
+				70186E8E1BC904040082A71F /* Sources */,
+				70186E8F1BC904040082A71F /* Frameworks */,
+				70186E901BC904040082A71F /* Resources */,
+				70186EEA1BC904040082A71F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70186EC21BC904040082A71F /* PBXTargetDependency */,
+			);
+			name = "05-picker-OS2";
+			productName = "05-picker-OS2";
+			productReference = 70186E921BC904040082A71F /* 05-picker-OS2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70186EAA1BC904040082A71F /* 05-picker-OS2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186EEE1BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2Tests" */;
+			buildPhases = (
+				70186EA71BC904040082A71F /* Sources */,
+				70186EA81BC904040082A71F /* Frameworks */,
+				70186EA91BC904040082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70186EAD1BC904040082A71F /* PBXTargetDependency */,
+			);
+			name = "05-picker-OS2Tests";
+			productName = "05-picker-OS2Tests";
+			productReference = 70186EAB1BC904040082A71F /* 05-picker-OS2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70186EB51BC904040082A71F /* 05-picker-OS2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186EF11BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2UITests" */;
+			buildPhases = (
+				70186EB21BC904040082A71F /* Sources */,
+				70186EB31BC904040082A71F /* Frameworks */,
+				70186EB41BC904040082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70186EB81BC904040082A71F /* PBXTargetDependency */,
+			);
+			name = "05-picker-OS2UITests";
+			productName = "05-picker-OS2UITests";
+			productReference = 70186EB61BC904040082A71F /* 05-picker-OS2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		70186EBE1BC904040082A71F /* 05-picker-OS2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186EE71BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2 WatchKit App" */;
+			buildPhases = (
+				70186EBD1BC904040082A71F /* Resources */,
+				70186EE61BC904040082A71F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70186ED11BC904040082A71F /* PBXTargetDependency */,
+			);
+			name = "05-picker-OS2 WatchKit App";
+			productName = "05-picker-OS2 WatchKit App";
+			productReference = 70186EBF1BC904040082A71F /* 05-picker-OS2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		70186ECD1BC904040082A71F /* 05-picker-OS2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186EE31BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2 WatchKit Extension" */;
+			buildPhases = (
+				70186ECA1BC904040082A71F /* Sources */,
+				70186ECB1BC904040082A71F /* Frameworks */,
+				70186ECC1BC904040082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-picker-OS2 WatchKit Extension";
+			productName = "05-picker-OS2 WatchKit Extension";
+			productReference = 70186ECE1BC904040082A71F /* 05-picker-OS2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70186E8A1BC904030082A71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "小码哥";
+				TargetAttributes = {
+					70186E911BC904040082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70186EAA1BC904040082A71F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 70186E911BC904040082A71F;
+					};
+					70186EB51BC904040082A71F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 70186E911BC904040082A71F;
+					};
+					70186EBE1BC904040082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70186ECD1BC904040082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 70186E8D1BC904030082A71F /* Build configuration list for PBXProject "05-picker-OS2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70186E891BC904030082A71F;
+			productRefGroup = 70186E931BC904040082A71F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70186E911BC904040082A71F /* 05-picker-OS2 */,
+				70186EAA1BC904040082A71F /* 05-picker-OS2Tests */,
+				70186EB51BC904040082A71F /* 05-picker-OS2UITests */,
+				70186EBE1BC904040082A71F /* 05-picker-OS2 WatchKit App */,
+				70186ECD1BC904040082A71F /* 05-picker-OS2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70186E901BC904040082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186EA51BC904040082A71F /* LaunchScreen.storyboard in Resources */,
+				70186EA21BC904040082A71F /* Assets.xcassets in Resources */,
+				70186EA01BC904040082A71F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EA91BC904040082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EB41BC904040082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EBD1BC904040082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186EC81BC904040082A71F /* Assets.xcassets in Resources */,
+				70186EC61BC904040082A71F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186ECC1BC904040082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186EDF1BC904040082A71F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70186E8E1BC904040082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186E9D1BC904040082A71F /* ViewController.m in Sources */,
+				70186E9A1BC904040082A71F /* AppDelegate.m in Sources */,
+				70186E971BC904040082A71F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EA71BC904040082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186EB01BC904040082A71F /* _5_picker_OS2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186EB21BC904040082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186EBB1BC904040082A71F /* _5_picker_OS2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186ECA1BC904040082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186EDA1BC904040082A71F /* ExtensionDelegate.m in Sources */,
+				70186ED71BC904040082A71F /* InterfaceController.m in Sources */,
+				70186EDD1BC904040082A71F /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70186EAD1BC904040082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186E911BC904040082A71F /* 05-picker-OS2 */;
+			targetProxy = 70186EAC1BC904040082A71F /* PBXContainerItemProxy */;
+		};
+		70186EB81BC904040082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186E911BC904040082A71F /* 05-picker-OS2 */;
+			targetProxy = 70186EB71BC904040082A71F /* PBXContainerItemProxy */;
+		};
+		70186EC21BC904040082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186EBE1BC904040082A71F /* 05-picker-OS2 WatchKit App */;
+			targetProxy = 70186EC11BC904040082A71F /* PBXContainerItemProxy */;
+		};
+		70186ED11BC904040082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186ECD1BC904040082A71F /* 05-picker-OS2 WatchKit Extension */;
+			targetProxy = 70186ED01BC904040082A71F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70186E9E1BC904040082A71F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70186E9F1BC904040082A71F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70186EA31BC904040082A71F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70186EA41BC904040082A71F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		70186EC41BC904040082A71F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70186EC51BC904040082A71F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70186EE11BC904040082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70186EE21BC904040082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70186EE41BC904040082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-picker-OS2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		70186EE51BC904040082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-picker-OS2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		70186EE81BC904040082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = _5_picker_OS2_WatchKit_Extension;
+				INFOPLIST_FILE = "05-picker-OS2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		70186EE91BC904040082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = _5_picker_OS2_WatchKit_Extension;
+				INFOPLIST_FILE = "05-picker-OS2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		70186EEC1BC904040082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-picker-OS2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70186EED1BC904040082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-picker-OS2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70186EEF1BC904040082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-picker-OS2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-picker-OS2.app/05-picker-OS2";
+			};
+			name = Debug;
+		};
+		70186EF01BC904040082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-picker-OS2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-picker-OS2.app/05-picker-OS2";
+			};
+			name = Release;
+		};
+		70186EF21BC904040082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-picker-OS2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-picker-OS2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70186EF31BC904040082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-picker-OS2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-picker-OS2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-picker-OS2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70186E8D1BC904030082A71F /* Build configuration list for PBXProject "05-picker-OS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186EE11BC904040082A71F /* Debug */,
+				70186EE21BC904040082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70186EE31BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186EE41BC904040082A71F /* Debug */,
+				70186EE51BC904040082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70186EE71BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186EE81BC904040082A71F /* Debug */,
+				70186EE91BC904040082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70186EEB1BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186EEC1BC904040082A71F /* Debug */,
+				70186EED1BC904040082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70186EEE1BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186EEF1BC904040082A71F /* Debug */,
+				70186EF01BC904040082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70186EF11BC904040082A71F /* Build configuration list for PBXNativeTarget "05-picker-OS2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186EF21BC904040082A71F /* Debug */,
+				70186EF31BC904040082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70186E8A1BC904030082A71F /* Project object */;
+}
