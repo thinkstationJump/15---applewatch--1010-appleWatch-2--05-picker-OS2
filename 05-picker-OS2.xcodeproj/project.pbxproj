@@ -23,6 +23,11 @@
 		70186EDA1BC904040082A71F /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186ED91BC904040082A71F /* ExtensionDelegate.m */; };
 		70186EDD1BC904040082A71F /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186EDC1BC904040082A71F /* NotificationController.m */; };
 		70186EDF1BC904040082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186EDE1BC904040082A71F /* Assets.xcassets */; };
+		70186EFA1BC906310082A71F /* ad_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 70186EF51BC906310082A71F /* ad_00.png */; settings = {ASSET_TAGS = (); }; };
+		70186EFB1BC906310082A71F /* ad_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 70186EF61BC906310082A71F /* ad_01.png */; settings = {ASSET_TAGS = (); }; };
+		70186EFC1BC906310082A71F /* ad_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 70186EF71BC906310082A71F /* ad_02.png */; settings = {ASSET_TAGS = (); }; };
+		70186EFD1BC906310082A71F /* ad_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 70186EF81BC906310082A71F /* ad_03.png */; settings = {ASSET_TAGS = (); }; };
+		70186EFE1BC906310082A71F /* ad_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 70186EF91BC906310082A71F /* ad_04.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +117,11 @@
 		70186EDC1BC904040082A71F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		70186EDE1BC904040082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70186EE01BC904040082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186EF51BC906310082A71F /* ad_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_00.png; sourceTree = "<group>"; };
+		70186EF61BC906310082A71F /* ad_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_01.png; sourceTree = "<group>"; };
+		70186EF71BC906310082A71F /* ad_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_02.png; sourceTree = "<group>"; };
+		70186EF81BC906310082A71F /* ad_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_03.png; sourceTree = "<group>"; };
+		70186EF91BC906310082A71F /* ad_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +235,7 @@
 		70186ED21BC904040082A71F /* 05-picker-OS2 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				70186EF41BC906310082A71F /* ads */,
 				70186ED51BC904040082A71F /* InterfaceController.h */,
 				70186ED61BC904040082A71F /* InterfaceController.m */,
 				70186ED81BC904040082A71F /* ExtensionDelegate.h */,
@@ -244,6 +255,18 @@
 				70186ED41BC904040082A71F /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70186EF41BC906310082A71F /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				70186EF51BC906310082A71F /* ad_00.png */,
+				70186EF61BC906310082A71F /* ad_01.png */,
+				70186EF71BC906310082A71F /* ad_02.png */,
+				70186EF81BC906310082A71F /* ad_03.png */,
+				70186EF91BC906310082A71F /* ad_04.png */,
+			);
+			path = ads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,7 +449,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70186EFD1BC906310082A71F /* ad_03.png in Resources */,
+				70186EFA1BC906310082A71F /* ad_00.png in Resources */,
+				70186EFE1BC906310082A71F /* ad_04.png in Resources */,
 				70186EDF1BC904040082A71F /* Assets.xcassets in Resources */,
+				70186EFC1BC906310082A71F /* ad_02.png in Resources */,
+				70186EFB1BC906310082A71F /* ad_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
